@@ -1,5 +1,5 @@
 """
-scripts/get-latest-ecs-csv.py
+scripts/ecs-url-to-csv.py
 Script to download the latest version of the ECS schema CSV containing all fields,
 rotate (if exists) the existing file at Elastic/data/ecs.csv to a versioned file,
 and update Elastic/data/ecs.csv with the latest data, and moves the older schema
